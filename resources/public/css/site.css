@@ -3,14 +3,25 @@
   max-width: 640px;
   margin: 0 auto;
   padding-top: 72px;
+  background: #073642;
   -webkit-font-smoothing: antialiased;
   font-size: 1.125em;
-  color: #333;
+  color: #000;
   line-height: 1.5em;
 }
 
+img {
+  width: 100%;
+}
+
+div {
+  background: #fdf6e3;
+  padding: 5px;
+}
+
 h1, h2, h3 {
-  color: #000;
+  color: #01476b;
+  padding: 5px;
 }
 
 h1 {
@@ -25,9 +36,13 @@ h3 {
   font-size: 1.5em
 }
 
+footer {
+  font-size: 0.5em
+}
+
 a {
   text-decoration: none;
-  color: #09f;
+  color: #6b0147;
 }
 
 a:hover {

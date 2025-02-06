@@ -9,12 +9,22 @@
 ;; Page Components
 (defn about-me []
   [:p {} "a burgeoning functional programmer"])
+
+(defn interests []
+  [:div
+   [:h3 "Interests"]
+   [:ul
+    [:li "Boxing"]
+    [:li "Computer Science"]
+    [:li "Linguistics"]
+    [:li "Music"]
+    [:li "Reading"]]])
 ;; ===========================================================================|
 ;; Content Endpoints
 (defn page-header []
-  [:div
-   [:h1 "About Squally"]])
+  [:h1 "About Me"])
 
 (defn page-content []
   [:div
-   [about-me]])
+   [about-me]
+   [interests]])
