@@ -11,7 +11,7 @@
 ;; Content Endpoints
 (defn page-header []
   [:div
-   [:h1 "Ramblings & Such"]])
+   [:h2 "Ramblings & Such"]])
 
 (defn page-content []
   [:div

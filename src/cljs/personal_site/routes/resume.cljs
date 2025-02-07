@@ -11,7 +11,7 @@
 ;; Content Endpoints
 (defn page-header []
   [:div
-   [:h1 "Resume"]])
+   [:h2 "Resume"]])
 
 (defn page-content []
   [:div

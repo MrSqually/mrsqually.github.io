@@ -1,6 +1,6 @@
 .body-container {
   font-family: 'Helvetica Neue', Verdana, Helvetica, Arial, sans-serif;
-  max-width: 640px;
+  max-width: 960px;
   margin: 0 auto;
   padding-top: 72px;
   background: #073642;
@@ -11,7 +11,7 @@
 }
 
 img {
-  width: 100%;
+  position: relative;
 }
 
 div {
@@ -19,9 +19,10 @@ div {
   padding: 5px;
 }
 
-h1, h2, h3 {
+h1, h2{
   color: #01476b;
   padding: 5px;
+  text-shadow: #014788 1px 1px 0.01rem;
 }
 
 h1 {
@@ -33,7 +34,27 @@ h2 {
 }
 
 h3 {
-  font-size: 1.5em
+  font-size: 1.5em;
+  color: #5349D8;
+  padding: 5px;
+  text-shadow: #000  2px 2px 0.1rem;
+}
+
+h6 {
+  position: relative;
+  box-sizing: border-box;
+  bottom:0;
+  left: 0;
+  padding: 5px;
+  color: #3200FF;
+  text-shadow: #000 2px 1px 0.1rem;
+  margin: 0;
+  font-size: 1.5em;
+}
+
+header {
+  align-items: center;
+  text-shadow: #6bFEE3 1px 1px 0.01rem;
 }
 
 footer {
@@ -42,9 +63,14 @@ footer {
 
 a {
   text-decoration: none;
-  color: #6b0147;
+  color: #6b0140;
 }
 
 a:hover {
   text-decoration: underline;
+}
+
+
+span.category {
+  text-align: right;
 }

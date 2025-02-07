@@ -11,8 +11,8 @@
 ;; Content Endpoints
 (defn page-header []
   [:div
-   [:h1 "Mr. Squally"]])
+   [:h2 {:style {:color "red"}}
+    "Welcome to the Homepage :^)"]])
 
 (defn page-content []
-  [:div {:style {:color "red"}}
-   [:p "Welcome to the Homepage"]])
+  [:div])
