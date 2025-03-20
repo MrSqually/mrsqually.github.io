@@ -1,6 +1,4 @@
-# personal_site
-
-This is the personal_site project.
+# Squally's Personal Site
 
 ## Development mode
 
